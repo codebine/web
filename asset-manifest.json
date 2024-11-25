@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d01aed37.css",
+    "main.js": "/static/js/main.e874e2a8.js",
+    "static/js/453.8ec180fb.chunk.js": "/static/js/453.8ec180fb.chunk.js",
+    "static/media/breadcrumbs-bg.png": "/static/media/breadcrumbs-bg.1f4552f207572789dfbf.png",
+    "static/media/play-button-bg.png": "/static/media/play-button-bg.81d388347a1533f8b2ed.png",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.fa6c455cbec2a3f793f9.jpg",
+    "static/media/play-video.jpg": "/static/media/play-video.93cd72bb4c51618a0dc7.jpg",
+    "static/media/about.jpg": "/static/media/about.8498bb5a6bb57ce22b96.jpg",
+    "static/media/step-1.png": "/static/media/step-1.cdf76ec6d159c823aa46.png",
+    "static/media/step-2.jpg": "/static/media/step-2.fa2e00a5e78f47ab3980.jpg",
+    "static/media/valuable-skill.jpg": "/static/media/valuable-skill.2ef34e165dcaa776b7fb.jpg",
+    "static/media/features-bg.jpg": "/static/media/features-bg.6d02393b972240830f51.jpg",
+    "static/media/step-3.jpg": "/static/media/step-3.36bcbcd9580645c93db9.jpg",
+    "index.html": "/index.html",
+    "main.d01aed37.css.map": "/static/css/main.d01aed37.css.map",
+    "main.e874e2a8.js.map": "/static/js/main.e874e2a8.js.map",
+    "453.8ec180fb.chunk.js.map": "/static/js/453.8ec180fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d01aed37.css",
+    "static/js/main.e874e2a8.js"
+  ]
+}
