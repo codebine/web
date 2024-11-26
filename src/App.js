@@ -11,7 +11,7 @@ import Contact from './Pages/Contact'
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/'>
       <Header />
       <Routes >
         <Route path='/'element={<Home/>}></Route>
