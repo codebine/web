@@ -11,10 +11,10 @@ import Contact from './Pages/Contact'
 const App = () => {
   return (
     <div>
-      <BrowserRouter basename='/'>
+      <BrowserRouter>
       <Header />
       <Routes >
-        <Route path='/'element={<Home/>}></Route>
+        <Route path='/web'element={<Home/>}></Route>
         <Route path='/About'element={<About/>}></Route>
         <Route path='/Services'element={<Services/>}></Route>
         <Route path='/Careers'element={<Careers/>}></Route>

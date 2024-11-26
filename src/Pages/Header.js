@@ -26,7 +26,7 @@ const Header = () => {
         >
           <ul>
             <li>
-              <NavLink to="/" className="active">
+              <NavLink to="/web" className="active">
                 Home
               </NavLink>
             </li>
