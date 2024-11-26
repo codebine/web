@@ -28,7 +28,7 @@ const Home = () => {
           >
             <div className="col-xl-6 col-lg-8">
               <h2>
-                Powerful Digital Solutions With GP<span>.</span>
+                Powerful Digital Solutions With Web<span>.</span>
               </h2>
               <p>We are team of talented digital marketers</p>
             </div>
