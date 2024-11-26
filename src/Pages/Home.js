@@ -12,6 +12,7 @@ import arrow from "../img/arrow-circle.png";
 import bg_1 from "../img/features-bg.jpg";
 import bg_2 from "../img/valuable-skill.jpg";
 import bg_3 from "../img/play-video.jpg";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
               <p>We are team of talented digital marketers</p>
             </div>
           </div>
-
+          {/* 
           <div
             className="row gy-4 mt-5 justify-content-center"
             data-aos="fade-up"
@@ -98,7 +99,7 @@ const Home = () => {
                 </h3>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -110,7 +111,7 @@ const Home = () => {
                 <span>What We Do</span>
                 <h2>We work performed for client happy.</h2>
                 <div class="cmn-btn">
-                  <a href="/service">View All Services</a>
+                  <a><NavLink to='/Services'>View All Services</NavLink></a>
                 </div>
               </div>
             </div>
@@ -510,6 +511,31 @@ const Home = () => {
         </div>
       </section>
       {/* why choose  */}
+      {/* call to action  */}
+      <section class="lets-talk sec-pad">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-9 col-lg-8 col-xl-7">
+              <div class="title special">
+                <span>Let’s Talk</span>
+                <h2>
+                  About Your Next <br />
+                  <b>Project</b> On Your Mind
+                </h2>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4 col-xl-5 text-end">
+              <div class="getin-touch">
+                <div class="cmn-btn">
+                  <a href="/contact">Get In Touch</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* call to action  */}
     </div>
   );
 };
