@@ -17,182 +17,143 @@ const Services = () => {
   return (
     <div>
       {/* Head  */}
-      <section className="breadcrumbs">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="breadcrumb-wrapper">
-                <h1>Services</h1>
-                <nav>
-                  <a href="/">Home</a>
-                  <i class="bi bi-slash"></i>
-                  <span>Services</span>
-                </nav>
-              </div>
-            </div>
-          </div>
+      <section>
+      <div className="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
         </div>
       </section>
       {/* Head  */}
       {/* what we do  */}
-      <section class="service-area sec-pad">
-        <div class="container">
-          <div class="row g-4">
-            <div class="col-lg-4">
-              <div class="title">
-                <span>What We Do</span>
-                <h2>We work performed for client happy.</h2>
-                <div class="cmn-btn">
-                  <a href="/service">View All Services</a>
-                </div>
+      <section className="service-area sec-pad">
+  <div className="container">
+    <div className="row g-4">
+      <div className="col-lg-12">
+        <div className="row g-4">
+          <div className="col-md-4">
+            <div className="single-service">
+              <span className="count">01</span>
+              <div className="service-icon">
+                <img src={ico_1} alt="Web Design Icon" />
+              </div>
+              <div className="service-content">
+                <h4>Web Design</h4>
+                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
+                <a href="/service-details">
+                  Read More
+                  <img src={arrow} alt="Arrow" />
+                </a>
               </div>
             </div>
+          </div>
 
-            <div class="col-lg-8">
-              <div class="row g-4">
-                <div class="col-md-6">
-                  <div class="single-service">
-                    <span class="count">01</span>
-                    <div class="service-icon">
-                      <img src={ico_1} alt="Web Design Icon" />
-                    </div>
-                    <div class="service-content">
-                      <h4>Web Design</h4>
-                      <p>
-                        Integer purus odio, placerat in in, ullamcorper nec
-                        dolor.
-                      </p>
-                      <a href="/service-details">
-                        Read More
-                        <img src={arrow} alt="Arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="single-service">
-                    <span class="count">02</span>
-                    <div class="service-icon">
-                      <img src={ico_2} alt="App Design Icon" />
-                    </div>
-                    <div class="service-content">
-                      <h4>App Design</h4>
-                      <p>
-                        Integer purus odio, placerat in in, ullamcorper nec
-                        dolor.
-                      </p>
-                      <a href="/service-details">
-                        Read More
-                        <img src={arrow} alt="Arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+          <div className="col-md-4">
+            <div className="single-service">
+              <span className="count">02</span>
+              <div className="service-icon">
+                <img src={ico_2} alt="App Design Icon" />
+              </div>
+              <div className="service-content">
+                <h4>App Design</h4>
+                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
+                <a href="/service-details">
+                  Read More
+                  <img src={arrow} alt="Arrow" />
+                </a>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-md-6">
-                  <div class="single-service">
-                    <span class="count">03</span>
-                    <div class="service-icon">
-                      <img src={ico_3} alt="Developing Icon" />
-                    </div>
-                    <div class="service-content">
-                      <h4>Developing</h4>
-                      <p>
-                        Integer purus odio, placerat in in, ullamcorper nec
-                        dolor.
-                      </p>
-                      <a href="/service-details">
-                        Read More
-                        <img src={arrow} alt="Arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+          <div className="col-md-4">
+            <div className="single-service">
+              <span className="count">03</span>
+              <div className="service-icon">
+                <img src={ico_3} alt="Developing Icon" />
+              </div>
+              <div className="service-content">
+                <h4>Developing</h4>
+                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
+                <a href="/service-details">
+                  Read More
+                  <img src={arrow} alt="Arrow" />
+                </a>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-md-6">
-                  <div class="single-service">
-                    <span class="count">04</span>
-                    <div class="service-icon">
-                      <img src={ico_4} alt="Graphic Design Icon" />
-                    </div>
-                    <div class="service-content">
-                      <h4>Graphic Design</h4>
-                      <p>
-                        Integer purus odio, placerat in in, ullamcorper nec
-                        dolor.
-                      </p>
-                      <a href="/service-details">
-                        Read More
-                        <img src={arrow} alt="Arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+          <div className="col-md-4">
+            <div className="single-service">
+              <span className="count">04</span>
+              <div className="service-icon">
+                <img src={ico_4} alt="Graphic Design Icon" />
+              </div>
+              <div className="service-content">
+                <h4>Graphic Design</h4>
+                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
+                <a href="/service-details">
+                  Read More
+                  <img src={arrow} alt="Arrow" />
+                </a>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-md-6">
-                  <div class="single-service">
-                    <span class="count">05</span>
-                    <div class="service-icon">
-                      <img src={ico_5} alt="Video Animation Icon" />
-                    </div>
-                    <div class="service-content">
-                      <h4>Video Animation</h4>
-                      <p>
-                        Integer purus odio, placerat in in, ullamcorper nec
-                        dolor.
-                      </p>
-                      <a href="/service-details">
-                        Read More
-                        <img src={arrow} alt="Arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+          <div className="col-md-4">
+            <div className="single-service">
+              <span className="count">05</span>
+              <div className="service-icon">
+                <img src={ico_5} alt="Video Animation Icon" />
+              </div>
+              <div className="service-content">
+                <h4>Video Animation</h4>
+                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
+                <a href="/service-details">
+                  Read More
+                  <img src={arrow} alt="Arrow" />
+                </a>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-md-6">
-                  <div class="single-service">
-                    <span class="count">06</span>
-                    <div class="service-icon">
-                      <img src={ico_6} alt="3D Design Icon" />
-                    </div>
-                    <div class="service-content">
-                      <h4>3D Design</h4>
-                      <p>
-                        Integer purus odio, placerat in in, ullamcorper nec
-                        dolor.
-                      </p>
-                      <a href="/service-details">
-                        Read More
-                        <img src={arrow} alt="Arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+          <div className="col-md-4">
+            <div className="single-service">
+              <span className="count">06</span>
+              <div className="service-icon">
+                <img src={ico_6} alt="3D Design Icon" />
+              </div>
+              <div className="service-content">
+                <h4>3D Design</h4>
+                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
+                <a href="/service-details">
+                  Read More
+                  <img src={arrow} alt="Arrow" />
+                </a>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-md-6">
-                  <div class="single-service">
-                    <span class="count">07</span>
-                    <div class="service-icon">
-                      <img src={ico_7} alt="UI/UX Design Icon" />
-                    </div>
-                    <div class="service-content">
-                      <h4>UI/UX Design</h4>
-                      <p>
-                        Integer purus odio, placerat in in, ullamcorper nec
-                        dolor.
-                      </p>
-                      <a href="/service-details">
-                        Read More
-                        <img src={arrow} alt="Arrow" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+          <div className="col-md-4">
+            <div className="single-service">
+              <span className="count">07</span>
+              <div className="service-icon">
+                <img src={ico_7} alt="UI/UX Design Icon" />
+              </div>
+              <div className="service-content">
+                <h4>UI/UX Design</h4>
+                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
+                <a href="/service-details">
+                  Read More
+                  <img src={arrow} alt="Arrow" />
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* what we do  */}
       {/* procedure */}
       <section class="service-details sec-mar">

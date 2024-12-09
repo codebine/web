@@ -351,7 +351,7 @@ const About = () => {
           <div class="row">
             <div class="col-md-6 col-lg-6 col-xl-6">
               <div class="title black">
-                <span>Why Choose Finibus</span>
+                <span>Why Choose Us</span>
                 <h2 class="mb-15">
                   Success is just around the next online corner
                 </h2>

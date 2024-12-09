@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/main.css";
 import bg from "../img/hero-bg.jpg";
 import about from "../img/about.jpg";
+import icon from "../img/mission-icon.png";
 import ico_1 from "../img/service-icon-1.png";
 import ico_2 from "../img/service-icon-2.png";
 import ico_3 from "../img/service-icon-3.png";
@@ -12,7 +13,9 @@ import arrow from "../img/arrow-circle.png";
 import bg_1 from "../img/features-bg.jpg";
 import bg_2 from "../img/valuable-skill.jpg";
 import bg_3 from "../img/play-video.jpg";
-import { NavLink } from "react-router-dom";
+import c1 from "../img/c-1.jpg";
+import c2 from "../img/c-2.jpg";
+// import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -103,6 +106,144 @@ const Home = () => {
         </div>
       </section>
 
+  {/* About  */}
+  <section class="about-area sec-mar">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-xl-6">
+              <div class="about-left">
+                <div class="title black">
+                  <span>About Us</span>
+                  <h2 class="mb-15">Direction with our company.</h2>
+                </div>
+                <p>
+                  Integer purus odio, placerat nec rhoncus in, ullamcorper nec
+                  dolor. Class aptent taciti sociosqu ad litora torquent per
+                  conubia nostra, per inceptos himenaeos. Praesent nec neque at
+                  dolor venenatis consectetur eu quis est. Donec lacinia
+                  placerat felis non aliquam. Integer purus odio.
+                </p>
+                <div class="our-mission">
+                  <div class="msn-icon">
+                    <img src={icon} alt="Mission Icon" />
+                  </div>
+                  <div class="msn-content">
+                    <h5>Our Mission</h5>
+                    <p>
+                      Integer purus odio, placerat nec rhoni olor. Class online
+                      and video.
+                    </p>
+                  </div>
+                </div>
+                <div class="cmn-btn">
+                  <a href="/about">About More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+              <div class="about-right">
+                <div class="group-images">
+                  <img
+                    src={c1}
+                    alt="About Bottom "
+                  />
+                  <div class="about-top">
+                    <img
+                      src={c2}
+                      alt="About Top "
+                    />
+                  </div>
+                  <div class="about-skills">
+                    <div class="signle-skill">
+                      <svg
+                        class="CircularProgressbar progress-bar-circle"
+                        viewBox="0 0 100 100"
+                      >
+                        <path
+                          class="CircularProgressbar-trail"
+                          d="
+                          M 50,50
+                          m 0,-46
+                          a 46,46 0 1 1 0,92
+                          a 46,46 0 1 1 0,-92
+                        "
+                          stroke-width="8"
+                          fill-opacity="0"
+                        ></path>
+                        <path
+                          class="CircularProgressbar-path"
+                          d="
+                          M 50,50
+                          m 0,-46
+                          a 46,46 0 1 1 0,92
+                          a 46,46 0 1 1 0,-92
+                        "
+                          stroke-width="8"
+                          fill-opacity="0"
+                          style={{
+                            strokeDasharray: "289.027",
+                            strokeDashoffset: "43.354",
+                          }}
+                        ></path>
+                        <text class="CircularProgressbar-text" x="50" y="50">
+                          85%
+                        </text>
+                      </svg>
+                      <div class="skill-content">
+                        <h6>Web</h6>
+                        <p>Clean Design</p>
+                      </div>
+                    </div>
+
+                    <div class="signle-skill xsm">
+                      <svg
+                        class="CircularProgressbar progress-bar-circle"
+                        viewBox="0 0 100 100"
+                      >
+                        <path
+                          class="CircularProgressbar-trail"
+                          d="
+                          M 50,50
+                          m 0,-46
+                          a 46,46 0 1 1 0,92
+                          a 46,46 0 1 1 0,-92
+                        "
+                          stroke-width="8"
+                          fill-opacity="0"
+                        ></path>
+                        <path
+                          class="CircularProgressbar-path"
+                          d="
+                          M 50,50
+                          m 0,-46
+                          a 46,46 0 1 1 0,92
+                          a 46,46 0 1 1 0,-92
+                        "
+                          stroke-width="8"
+                          fill-opacity="0"
+                          style={{
+                            strokeDasharray: "289.027",
+                            strokeDashoffset: "92.4885",
+                          }}
+                        ></path>
+                        <text class="CircularProgressbar-text" x="50" y="50">
+                          68%
+                        </text>
+                      </svg>
+                      <div class="skill-content">
+                        <h6>App</h6>
+                        <p>Developing</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* About  */}
+
       <section class="service-area sec-pad">
         <div class="container">
           <div class="row">
@@ -111,7 +252,7 @@ const Home = () => {
                 <span>What We Do</span>
                 <h2>We work performed for client happy.</h2>
                 <div class="cmn-btn">
-                  <a><NavLink to='/Services'>View All Services</NavLink></a>
+                  <a href="/service">View All Services</a>
                 </div>
               </div>
             </div>
@@ -459,7 +600,7 @@ const Home = () => {
           <div class="row">
             <div class="col-md-6 col-lg-6 col-xl-6">
               <div class="title black">
-                <span>Why Choose Finibus</span>
+                <span>Why Choose Us</span>
                 <h2 class="mb-15">
                   Success is just around the next online corner
                 </h2>
