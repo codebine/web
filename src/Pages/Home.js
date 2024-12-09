@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/main.css";
 import bg from "../img/hero-bg.jpg";
 import about from "../img/about.jpg";
-import icon from "../img/mission-icon.png";
+// import icon from "../img/mission-icon.png";
 import ico_1 from "../img/service-icon-1.png";
 import ico_2 from "../img/service-icon-2.png";
 import ico_3 from "../img/service-icon-3.png";
@@ -106,6 +106,11 @@ const Home = () => {
         </div>
       </section>
 
+
+
+
+
+
   {/* About  */}
   <section class="about-area sec-mar">
         <div class="container">
@@ -123,7 +128,7 @@ const Home = () => {
                   dolor venenatis consectetur eu quis est. Donec lacinia
                   placerat felis non aliquam. Integer purus odio.
                 </p>
-                <div class="our-mission">
+                {/* <div class="our-mission">
                   <div class="msn-icon">
                     <img src={icon} alt="Mission Icon" />
                   </div>
@@ -134,7 +139,7 @@ const Home = () => {
                       and video.
                     </p>
                   </div>
-                </div>
+                </div> */}
                 <div class="cmn-btn">
                   <a href="/about">About More</a>
                 </div>

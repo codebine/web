@@ -18,10 +18,22 @@ const Services = () => {
     <div>
       {/* Head  */}
       <section>
-      <div className="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
+      <section className="breadcrumbs">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="breadcrumb-wrapper">
+                <h1>Services</h1>
+                <nav>
+                  <a href="/">Home</a>
+                  <i class="bi bi-slash"></i>
+                  <span>Services</span>
+                </nav>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
       </section>
       {/* Head  */}
       {/* what we do  */}

@@ -3,7 +3,7 @@
 import React from "react";
 import "../css/about.css";
 import "../css/main.css";
-import icon from "../img/mission-icon.png";
+// import icon from "../img/mission-icon.png";
 import bg_2 from "../img/valuable-skill.jpg";
 import bg_3 from "../img/play-video.jpg";
 
@@ -225,7 +225,7 @@ const About = () => {
                   dolor venenatis consectetur eu quis est. Donec lacinia
                   placerat felis non aliquam. Integer purus odio.
                 </p>
-                <div class="our-mission">
+                {/* <div class="our-mission">
                   <div class="msn-icon">
                     <img src={icon} alt="Mission Icon" />
                   </div>
@@ -236,7 +236,7 @@ const About = () => {
                       and video.
                     </p>
                   </div>
-                </div>
+                </div> */}
                 <div class="cmn-btn">
                   <a href="/about">About More</a>
                 </div>

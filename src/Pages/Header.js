@@ -20,15 +20,10 @@ const Header = () => {
           <span>.</span>
         </a>
 
-        <nav
-          id="navmenu"
-          className={`navmenu ${isMobileNavActive ? "mobile-nav-active" : ""}`}
-        >
+        <nav id="navmenu" className={`navmenu ${isMobileNavActive ? "mobile-nav-active" : ""}`}>
           <ul>
             <li>
-              <NavLink to="/web" className="active">
-                Home
-              </NavLink>
+              <NavLink to="/web" className="active">Home</NavLink>
             </li>
             <li>
               <NavLink to="/About">About</NavLink>
@@ -45,16 +40,11 @@ const Header = () => {
           </ul>
         </nav>
 
-        <button
-          className="mobile-nav-toggle d-xl-none"
-          onClick={toggleMobileNav}
-        >
+        <button className="mobile-nav-toggle d-xl-none" onClick={toggleMobileNav}>
           <i className={`bi ${isMobileNavActive ? "bi-x" : "bi-list"}`}></i>
         </button>
 
-        <a className="btn-getstarted" href="index.html#about">
-          Get Started
-        </a>
+        <a className="btn-getstarted">Get Started</a>
       </div>
     </header>
   );
