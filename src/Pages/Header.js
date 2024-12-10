@@ -40,7 +40,7 @@ const Header = () => {
           </ul>
         </nav>
 
-        <button className="mobile-nav-toggle d-xl-none" onClick={toggleMobileNav}>
+        <button className="mobile-nav-toggle d-xl-none bg-dark" onClick={toggleMobileNav}>
           <i className={`bi ${isMobileNavActive ? "bi-x" : "bi-list"}`}></i>
         </button>
 
