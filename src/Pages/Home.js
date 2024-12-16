@@ -249,7 +249,7 @@ const Home = () => {
         </div>
       </section>
       {/* About  */}
-      <div className="container">
+      {/* <div className="container">
         <div class="sectin bg-light1 optech-section-padding">
           <div class="container">
             <div class="optech-section-title center">
@@ -340,7 +340,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 
