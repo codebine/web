@@ -18,6 +18,7 @@ import c2 from "../img/c-2.jpg";
 // import { NavLink } from "react-router-dom";
 
 const Home = () => {
+
   return (
     <div>
       <section id="hero" className="hero section dark-background">
@@ -111,8 +112,8 @@ const Home = () => {
 
 
 
-  {/* About  */}
-  <section class="about-area sec-mar">
+      {/* About  */}
+      <section class="about-area sec-mar">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-xl-6">
@@ -248,6 +249,100 @@ const Home = () => {
         </div>
       </section>
       {/* About  */}
+      <div className="container">
+        <div class="sectin bg-light1 optech-section-padding">
+          <div class="container">
+            <div class="optech-section-title center">
+              <h2>Our awesome services to give you success</h2>
+            </div>
+          </div>
+          <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden aos-init aos-animate"
+            data-aos="fade-up" data-aos-duration="600" style={{ paddingBottom: "70px" }}>
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide-active" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="0">
+                <div class="optech-iconbox-wrap">
+                  <div class="optech-iconbox-icon">
+                    <i class="fa fa-grav" aria-hidden="true"></i>
+
+                  </div>
+                  <div class="optech-iconbox-data">
+                    <h5>Data Tracking <br /> Security</h5>
+                    <p>Developing a comprehensive IT strategy that aligns.</p>
+                    <a class="optech-icon-btn" href="/service-details">
+                      <i class="icon-show ri-arrow-right-line"></i>
+                      <span>Learn More</span>
+                      <i class="icon-hide ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-next" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="1">
+                <div class="optech-iconbox-wrap">
+                  <div class="optech-iconbox-icon">
+                    <img alt="icon" width="36" height="36" decoding="async"
+                      src="/assets/images/iconbox/icon5.svg" style={{ color: "transparent" }} />
+                  </div>
+                  <div class="optech-iconbox-data">
+                    <h5>IT Management <br /> Service</h5>
+                    <p>Developing a comprehensive IT strategy that aligns.</p>
+                    <a class="optech-icon-btn" href="/service-details">
+                      <i class="icon-show ri-arrow-right-line"></i>
+                      <span>Learn More</span>
+                      <i class="icon-hide ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="2">
+                <div class="optech-iconbox-wrap">
+                  <div class="optech-iconbox-icon">
+                    <img alt="icon" width="36" height="36" decoding="async"
+                      src="/assets/images/iconbox/icon6.svg" style={{ color: "transparent" }} />
+                  </div>
+                  <div class="optech-iconbox-data">
+                    <h5>UI/UX &amp; Br/anding <br /> Identity</h5>
+                    <p>Developing a comprehensive IT strategy that aligns.</p>
+                    <a class="optech-icon-btn" href="/service-details">
+                      <i class="icon-show ri-arrow-right-line"></i>
+                      <span>Learn More</span>
+                      <i class="icon-hide ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="3">
+                <div class="optech-iconbox-wrap">
+                  <div class="optech-iconbox-icon">
+                    <img alt="icon" width="36" height="36" decoding="async"
+                      src="/assets/images/iconbox/icon7.svg" style={{ color: "transparent" }} />
+                  </div>
+                  <div class="optech-iconbox-data">
+                    <h5>Web &amp; Mobile App <br /> Development</h5>
+                    <p>Developing a comprehensive IT strategy that aligns.</p>
+                    <a class="optech-icon-btn" href="/service-details">
+                      <i class="icon-show ri-arrow-right-line"></i>
+                      <span>Learn More</span>
+                      <i class="icon-hide ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+              <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+              <span class="swiper-pagination-bullet"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
       <section class="service-area sec-pad">
         <div class="container">
