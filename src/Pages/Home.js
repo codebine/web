@@ -341,9 +341,6 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-
-
-
       <section class="service-area sec-pad">
         <div class="container">
           <div class="row">
