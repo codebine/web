@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.4c01a4fa.css",
-    "main.js": "/web/static/js/main.6bb409c2.js",
+    "main.css": "/web/static/css/main.bfd28b0c.css",
+    "main.js": "/web/static/js/main.09853af3.js",
     "static/js/453.8ec180fb.chunk.js": "/web/static/js/453.8ec180fb.chunk.js",
-    "static/media/breadcrumbs-bg.png": "/web/static/media/breadcrumbs-bg.1f4552f207572789dfbf.png",
-    "static/media/play-button-bg.png": "/web/static/media/play-button-bg.81d388347a1533f8b2ed.png",
+    "static/media/breadcrumbs-bg.png": "/web/static/media/breadcrumbs-bg.bc75d37435887c75e2eb.png",
     "static/media/hero-bg.jpg": "/web/static/media/hero-bg.fa6c455cbec2a3f793f9.jpg",
     "static/media/play-video.jpg": "/web/static/media/play-video.93cd72bb4c51618a0dc7.jpg",
     "static/media/about.jpg": "/web/static/media/about.8498bb5a6bb57ce22b96.jpg",
@@ -13,13 +12,15 @@
     "static/media/valuable-skill.jpg": "/web/static/media/valuable-skill.2ef34e165dcaa776b7fb.jpg",
     "static/media/features-bg.jpg": "/web/static/media/features-bg.6d02393b972240830f51.jpg",
     "static/media/step-3.jpg": "/web/static/media/step-3.36bcbcd9580645c93db9.jpg",
+    "static/media/c-1.jpg": "/web/static/media/c-1.a1bad5e5fe39fe9fe9ee.jpg",
+    "static/media/c-2.jpg": "/web/static/media/c-2.7b8c985f9dfcc2c26271.jpg",
     "index.html": "/web/index.html",
-    "main.4c01a4fa.css.map": "/web/static/css/main.4c01a4fa.css.map",
-    "main.6bb409c2.js.map": "/web/static/js/main.6bb409c2.js.map",
+    "main.bfd28b0c.css.map": "/web/static/css/main.bfd28b0c.css.map",
+    "main.09853af3.js.map": "/web/static/js/main.09853af3.js.map",
     "453.8ec180fb.chunk.js.map": "/web/static/js/453.8ec180fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c01a4fa.css",
-    "static/js/main.6bb409c2.js"
+    "static/css/main.bfd28b0c.css",
+    "static/js/main.09853af3.js"
   ]
 }
