@@ -466,7 +466,7 @@ text-transform: none;
 }
 .single-service-work-process .single-step .step {
     background: #fff;
-    border: 1px solid rgba(217, 10, 44, .2);
+    border: 1px solid rgba(26, 10, 217, 0.2);
     border-radius: 5px;
     box-sizing: border-box;
     padding: 30px;

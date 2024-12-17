@@ -249,17 +249,15 @@ const Home = () => {
         </div>
       </section>
       {/* About  */}
-      {/* <div className="container">
-        <div class="sectin bg-light1 optech-section-padding">
+
+      <div className="bg-light1">
+        <div class="sectin  optech-section-padding">
           <div class="container">
             <div class="optech-section-title center">
               <h2>Our awesome services to give you success</h2>
             </div>
           </div>
-          <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden aos-init aos-animate"
-            data-aos="fade-up" data-aos-duration="600" style={{ paddingBottom: "70px" }}>
-
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper justify-content-center">
               <div class="swiper-slide swiper-slide-active" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="0">
                 <div class="optech-iconbox-wrap">
                   <div class="optech-iconbox-icon">
@@ -329,18 +327,82 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-              <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-              <span class="swiper-pagination-bullet"></span>
-              <span class="swiper-pagination-bullet"></span>
-              <span class="swiper-pagination-bullet"></span>
-              <span class="swiper-pagination-bullet"></span>
-              <span class="swiper-pagination-bullet"></span>
-              <span class="swiper-pagination-bullet"></span>
+            <div class="swiper-wrapper justify-content-center mt-5">
+              <div class="swiper-slide swiper-slide-active" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="0">
+                <div class="optech-iconbox-wrap">
+                  <div class="optech-iconbox-icon">
+                    <i class="fa fa-grav" aria-hidden="true"></i>
+
+                  </div>
+                  <div class="optech-iconbox-data">
+                    <h5>Data Tracking <br /> Security</h5>
+                    <p>Developing a comprehensive IT strategy that aligns.</p>
+                    <a class="optech-icon-btn" href="/service-details">
+                      <i class="icon-show ri-arrow-right-line"></i>
+                      <span>Learn More</span>
+                      <i class="icon-hide ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-next" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="1">
+                <div class="optech-iconbox-wrap">
+                  <div class="optech-iconbox-icon">
+                    <img alt="icon" width="36" height="36" decoding="async"
+                      src="/assets/images/iconbox/icon5.svg" style={{ color: "transparent" }} />
+                  </div>
+                  <div class="optech-iconbox-data">
+                    <h5>IT Management <br /> Service</h5>
+                    <p>Developing a comprehensive IT strategy that aligns.</p>
+                    <a class="optech-icon-btn" href="/service-details">
+                      <i class="icon-show ri-arrow-right-line"></i>
+                      <span>Learn More</span>
+                      <i class="icon-hide ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="2">
+                <div class="optech-iconbox-wrap">
+                  <div class="optech-iconbox-icon">
+                    <img alt="icon" width="36" height="36" decoding="async"
+                      src="/assets/images/iconbox/icon6.svg" style={{ color: "transparent" }} />
+                  </div>
+                  <div class="optech-iconbox-data">
+                    <h5>UI/UX &amp; Br/anding <br /> Identity</h5>
+                    <p>Developing a comprehensive IT strategy that aligns.</p>
+                    <a class="optech-icon-btn" href="/service-details">
+                      <i class="icon-show ri-arrow-right-line"></i>
+                      <span>Learn More</span>
+                      <i class="icon-hide ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="3">
+                <div class="optech-iconbox-wrap">
+                  <div class="optech-iconbox-icon">
+                    <img alt="icon" width="36" height="36" decoding="async"
+                      src="/assets/images/iconbox/icon7.svg" style={{ color: "transparent" }} />
+                  </div>
+                  <div class="optech-iconbox-data">
+                    <h5>Web &amp; Mobile App <br /> Development</h5>
+                    <p>Developing a comprehensive IT strategy that aligns.</p>
+                    <a class="optech-icon-btn" href="/service-details">
+                      <i class="icon-show ri-arrow-right-line"></i>
+                      <span>Learn More</span>
+                      <i class="icon-hide ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
         </div>
-      </div> */}
+      </div>
+
+
+
+      
       <section class="service-area sec-pad">
         <div class="container">
           <div class="row">
@@ -489,41 +551,23 @@ const Home = () => {
       <section id="features" class="features section">
         <div class="container">
           <div class="row gy-4">
-            <div
-              class="features-image col-lg-6"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+            <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <img src={bg_1} alt="" />
             </div>
             <div class="col-lg-6">
-              <div
-                class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
+              <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-archive flex-shrink-0"></i>
                 <div>
                   <h4>Est labore ad</h4>
-                  <p>
-                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur
-                    laboris nisi ut aliquip
-                  </p>
+                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariaturlaboris nisi ut aliquip</p>
                 </div>
               </div>
 
-              <div
-                class="features-item d-flex mt-5 ps-0 ps-lg-3"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
+              <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-basket flex-shrink-0"></i>
                 <div>
                   <h4>Harum esse qui</h4>
-                  <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt
-                  </p>
+                  <p>Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt</p>
                 </div>
               </div>
 
