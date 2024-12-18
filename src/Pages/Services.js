@@ -1,317 +1,235 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "../css/services.css";
 import "../css/main.css";
-// import ico_1 from "../img/service-icon-1.png";
-// import ico_2 from "../img/service-icon-2.png";
-// import ico_3 from "../img/service-icon-3.png";
-// import ico_4 from "../img/service-icon-4.png";
-// import ico_5 from "../img/service-icon-5.png";
-// import ico_6 from "../img/service-icon-6.png";
-// import ico_7 from "../img/service-icon-7.png";
-// import arrow from "../img/arrow-circle.png";
+
 import step_1 from "../img/step-1.png"
 import step_2 from "../img/step-2.jpg"
 import step_3 from "../img/step-3.jpg"
+import img1 from "../img/illustration1.svg"
+import img2 from "../img/illustration2.svg"
+import img3 from "../img/illustration3.svg"
 
 const Services = () => {
   return (
     <div>
       {/* Head  */}
       <section>
-      <section className="breadcrumbs">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="breadcrumb-wrapper">
-                <h1>Services</h1>
-                <nav>
-                  <a href="/">Home</a>
-                  <i class="bi bi-slash"></i>
-                  <span>Services</span>
-                </nav>
+        <section className="breadcrumbs">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <div className="breadcrumb-wrapper">
+                  <h1>Services</h1>
+                  <nav>
+                    <a href="/">Home</a>
+                    <i class="bi bi-slash"></i>
+                    <span>Services</span>
+                  </nav>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       </section>
       {/* Head  */}
       {/* Services  */}
-      {/* <section className="service-area sec-pad">
-  <div className="container">
-    <div className="row g-4">
-      <div className="col-lg-12">
-        <div className="row g-4">
-          <div className="col-md-4">
-            <div className="single-service">
-              <span className="count">01</span>
-              <div className="service-icon">
-                <img src={ico_1} alt="Web Design Icon" />
-              </div>
-              <div className="service-content">
-                <h4>Web Design</h4>
-                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
-                <a href="/service-details">
-                  Read More
-                  <img src={arrow} alt="Arrow" />
-                </a>
+      <div class="section optech-section-padding5">
+        <div class="container">
+          <div class="optech-section-title center">
+            <h2>Our working process on how to grow your business</h2>
+          </div>
+          <div class="row z-index">
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="500">
+              <div class="optech-numberbox-wrap">
+                <div class="optech-numberbox-icon">
+                  <img alt="Initiation and Planning Icon" width="228" height="220" decoding="async" src={img1} />
+                </div>
+                <div class="optech-numberbox-data">
+                  <span>01</span>
+                  <h4>Initiation &amp; Planning</h4>
+                  <p>We are architects and innovation trailblazers of technological advancement.</p>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="single-service">
-              <span className="count">02</span>
-              <div className="service-icon">
-                <img src={ico_2} alt="App Design Icon" />
-              </div>
-              <div className="service-content">
-                <h4>App Design</h4>
-                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
-                <a href="/service-details">
-                  Read More
-                  <img src={arrow} alt="Arrow" />
-                </a>
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
+              <div class="optech-numberbox-wrap">
+                <div class="optech-numberbox-icon">
+                  <img alt="Execution and Development Icon" width="228" height="220" decoding="async" src={img2} />
+                </div>
+                <div class="optech-numberbox-data">
+                  <span>02</span>
+                  <h4>Execution &amp; Development</h4>
+                  <p>We are architects and innovation trailblazers of technological advancement.</p>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="single-service">
-              <span className="count">03</span>
-              <div className="service-icon">
-                <img src={ico_3} alt="Developing Icon" />
-              </div>
-              <div className="service-content">
-                <h4>Developing</h4>
-                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
-                <a href="/service-details">
-                  Read More
-                  <img src={arrow} alt="Arrow" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="single-service">
-              <span className="count">04</span>
-              <div className="service-icon">
-                <img src={ico_4} alt="Graphic Design Icon" />
-              </div>
-              <div className="service-content">
-                <h4>Graphic Design</h4>
-                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
-                <a href="/service-details">
-                  Read More
-                  <img src={arrow} alt="Arrow" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="single-service">
-              <span className="count">05</span>
-              <div className="service-icon">
-                <img src={ico_5} alt="Video Animation Icon" />
-              </div>
-              <div className="service-content">
-                <h4>Video Animation</h4>
-                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
-                <a href="/service-details">
-                  Read More
-                  <img src={arrow} alt="Arrow" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="single-service">
-              <span className="count">06</span>
-              <div className="service-icon">
-                <img src={ico_6} alt="3D Design Icon" />
-              </div>
-              <div className="service-content">
-                <h4>3D Design</h4>
-                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
-                <a href="/service-details">
-                  Read More
-                  <img src={arrow} alt="Arrow" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="single-service">
-              <span className="count">07</span>
-              <div className="service-icon">
-                <img src={ico_7} alt="UI/UX Design Icon" />
-              </div>
-              <div className="service-content">
-                <h4>UI/UX Design</h4>
-                <p>Integer purus odio, placerat in in, ullamcorper nec dolor.</p>
-                <a href="/service-details">
-                  Read More
-                  <img src={arrow} alt="Arrow" />
-                </a>
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="900">
+              <div class="optech-numberbox-wrap">
+                <div class="optech-numberbox-icon">
+                  <img alt="Testing and Maintenance Icon" width="228" height="220" decoding="async" src={img3} />
+                </div>
+                <div class="optech-numberbox-data">
+                  <span>03</span>
+                  <h4>Testing &amp; Maintenance</h4>
+                  <p>We are architects and innovation trailblazers of technological advancement.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section> */}
-  <div className="bg-light1">
+
+
+
+
+      <div className="bg-light1">
         <div class="sectin  optech-section-padding">
           <div class="container">
             {/* <div class="optech-section-title center">
               <h2>Our awesome services to give you success</h2>
             </div> */}
           </div>
-            <div class="swiper-wrapper justify-content-center">
-              <div class="swiper-slide swiper-slide-active" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="0">
-                <div class="optech-iconbox-wrap">
-                  <div class="optech-iconbox-icon">
-                    <i class="fa fa-grav" aria-hidden="true"></i>
+          <div class="swiper-wrapper justify-content-center">
+            <div class="swiper-slide swiper-slide-active" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="0">
+              <div class="optech-iconbox-wrap">
+                <div class="optech-iconbox-icon">
+                  <i class="fa fa-grav" aria-hidden="true"></i>
 
-                  </div>
-                  <div class="optech-iconbox-data">
-                    <h5>Data Tracking <br /> Security</h5>
-                    <p>Developing a comprehensive IT strategy that aligns.</p>
-                    <a class="optech-icon-btn" href="/service-details">
-                      <i class="icon-show ri-arrow-right-line"></i>
-                      <span>Learn More</span>
-                      <i class="icon-hide ri-arrow-right-line"></i>
-                    </a>
-                  </div>
                 </div>
-              </div>
-              <div class="swiper-slide swiper-slide-next" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="1">
-                <div class="optech-iconbox-wrap">
-                  <div class="optech-iconbox-icon">
-                    <img alt="icon" width="36" height="36" decoding="async"
-                      src="/assets/images/iconbox/icon5.svg" style={{ color: "transparent" }} />
-                  </div>
-                  <div class="optech-iconbox-data">
-                    <h5>IT Management <br /> Service</h5>
-                    <p>Developing a comprehensive IT strategy that aligns.</p>
-                    <a class="optech-icon-btn" href="/service-details">
-                      <i class="icon-show ri-arrow-right-line"></i>
-                      <span>Learn More</span>
-                      <i class="icon-hide ri-arrow-right-line"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="2">
-                <div class="optech-iconbox-wrap">
-                  <div class="optech-iconbox-icon">
-                    <img alt="icon" width="36" height="36" decoding="async"
-                      src="/assets/images/iconbox/icon6.svg" style={{ color: "transparent" }} />
-                  </div>
-                  <div class="optech-iconbox-data">
-                    <h5>UI/UX &amp; Br/anding <br /> Identity</h5>
-                    <p>Developing a comprehensive IT strategy that aligns.</p>
-                    <a class="optech-icon-btn" href="/service-details">
-                      <i class="icon-show ri-arrow-right-line"></i>
-                      <span>Learn More</span>
-                      <i class="icon-hide ri-arrow-right-line"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="3">
-                <div class="optech-iconbox-wrap">
-                  <div class="optech-iconbox-icon">
-                    <img alt="icon" width="36" height="36" decoding="async"
-                      src="/assets/images/iconbox/icon7.svg" style={{ color: "transparent" }} />
-                  </div>
-                  <div class="optech-iconbox-data">
-                    <h5>Web &amp; Mobile App <br /> Development</h5>
-                    <p>Developing a comprehensive IT strategy that aligns.</p>
-                    <a class="optech-icon-btn" href="/service-details">
-                      <i class="icon-show ri-arrow-right-line"></i>
-                      <span>Learn More</span>
-                      <i class="icon-hide ri-arrow-right-line"></i>
-                    </a>
-                  </div>
+                <div class="optech-iconbox-data">
+                  <h5>Data Tracking <br /> Security</h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <a class="optech-icon-btn" href="/service-details">
+                    <i class="icon-show ri-arrow-right-line"></i>
+                    <span>Learn More</span>
+                    <i class="icon-hide ri-arrow-right-line"></i>
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="swiper-wrapper justify-content-center mt-5">
-              <div class="swiper-slide swiper-slide-active" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="0">
-                <div class="optech-iconbox-wrap">
-                  <div class="optech-iconbox-icon">
-                    <i class="fa fa-grav" aria-hidden="true"></i>
-
-                  </div>
-                  <div class="optech-iconbox-data">
-                    <h5>Data Tracking <br /> Security</h5>
-                    <p>Developing a comprehensive IT strategy that aligns.</p>
-                    <a class="optech-icon-btn" href="/service-details">
-                      <i class="icon-show ri-arrow-right-line"></i>
-                      <span>Learn More</span>
-                      <i class="icon-hide ri-arrow-right-line"></i>
-                    </a>
-                  </div>
+            <div class="swiper-slide swiper-slide-next" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="1">
+              <div class="optech-iconbox-wrap">
+                <div class="optech-iconbox-icon">
+                  <img alt="icon" width="36" height="36" decoding="async"
+                    src="/assets/images/iconbox/icon5.svg" style={{ color: "transparent" }} />
                 </div>
-              </div>
-              <div class="swiper-slide swiper-slide-next" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="1">
-                <div class="optech-iconbox-wrap">
-                  <div class="optech-iconbox-icon">
-                    <img alt="icon" width="36" height="36" decoding="async"
-                      src="/assets/images/iconbox/icon5.svg" style={{ color: "transparent" }} />
-                  </div>
-                  <div class="optech-iconbox-data">
-                    <h5>IT Management <br /> Service</h5>
-                    <p>Developing a comprehensive IT strategy that aligns.</p>
-                    <a class="optech-icon-btn" href="/service-details">
-                      <i class="icon-show ri-arrow-right-line"></i>
-                      <span>Learn More</span>
-                      <i class="icon-hide ri-arrow-right-line"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="2">
-                <div class="optech-iconbox-wrap">
-                  <div class="optech-iconbox-icon">
-                    <img alt="icon" width="36" height="36" decoding="async"
-                      src="/assets/images/iconbox/icon6.svg" style={{ color: "transparent" }} />
-                  </div>
-                  <div class="optech-iconbox-data">
-                    <h5>UI/UX &amp; Br/anding <br /> Identity</h5>
-                    <p>Developing a comprehensive IT strategy that aligns.</p>
-                    <a class="optech-icon-btn" href="/service-details">
-                      <i class="icon-show ri-arrow-right-line"></i>
-                      <span>Learn More</span>
-                      <i class="icon-hide ri-arrow-right-line"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="3">
-                <div class="optech-iconbox-wrap">
-                  <div class="optech-iconbox-icon">
-                    <img alt="icon" width="36" height="36" decoding="async"
-                      src="/assets/images/iconbox/icon7.svg" style={{ color: "transparent" }} />
-                  </div>
-                  <div class="optech-iconbox-data">
-                    <h5>Web &amp; Mobile App <br /> Development</h5>
-                    <p>Developing a comprehensive IT strategy that aligns.</p>
-                    <a class="optech-icon-btn" href="/service-details">
-                      <i class="icon-show ri-arrow-right-line"></i>
-                      <span>Learn More</span>
-                      <i class="icon-hide ri-arrow-right-line"></i>
-                    </a>
-                  </div>
+                <div class="optech-iconbox-data">
+                  <h5>IT Management <br /> Service</h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <a class="optech-icon-btn" href="/service-details">
+                    <i class="icon-show ri-arrow-right-line"></i>
+                    <span>Learn More</span>
+                    <i class="icon-hide ri-arrow-right-line"></i>
+                  </a>
                 </div>
               </div>
             </div>
+            <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="2">
+              <div class="optech-iconbox-wrap">
+                <div class="optech-iconbox-icon">
+                  <img alt="icon" width="36" height="36" decoding="async"
+                    src="/assets/images/iconbox/icon6.svg" style={{ color: "transparent" }} />
+                </div>
+                <div class="optech-iconbox-data">
+                  <h5>UI/UX &amp; Br/anding <br /> Identity</h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <a class="optech-icon-btn" href="/service-details">
+                    <i class="icon-show ri-arrow-right-line"></i>
+                    <span>Learn More</span>
+                    <i class="icon-hide ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="3">
+              <div class="optech-iconbox-wrap">
+                <div class="optech-iconbox-icon">
+                  <img alt="icon" width="36" height="36" decoding="async"
+                    src="/assets/images/iconbox/icon7.svg" style={{ color: "transparent" }} />
+                </div>
+                <div class="optech-iconbox-data">
+                  <h5>Web &amp; Mobile App <br /> Development</h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <a class="optech-icon-btn" href="/service-details">
+                    <i class="icon-show ri-arrow-right-line"></i>
+                    <span>Learn More</span>
+                    <i class="icon-hide ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-wrapper justify-content-center mt-5">
+            <div class="swiper-slide swiper-slide-active" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="0">
+              <div class="optech-iconbox-wrap">
+                <div class="optech-iconbox-icon">
+                  <i class="fa fa-grav" aria-hidden="true"></i>
+
+                </div>
+                <div class="optech-iconbox-data">
+                  <h5>Data Tracking <br /> Security</h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <a class="optech-icon-btn" href="/service-details">
+                    <i class="icon-show ri-arrow-right-line"></i>
+                    <span>Learn More</span>
+                    <i class="icon-hide ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-slide-next" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="1">
+              <div class="optech-iconbox-wrap">
+                <div class="optech-iconbox-icon">
+                  <img alt="icon" width="36" height="36" decoding="async"
+                    src="/assets/images/iconbox/icon5.svg" style={{ color: "transparent" }} />
+                </div>
+                <div class="optech-iconbox-data">
+                  <h5>IT Management <br /> Service</h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <a class="optech-icon-btn" href="/service-details">
+                    <i class="icon-show ri-arrow-right-line"></i>
+                    <span>Learn More</span>
+                    <i class="icon-hide ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="2">
+              <div class="optech-iconbox-wrap">
+                <div class="optech-iconbox-icon">
+                  <img alt="icon" width="36" height="36" decoding="async"
+                    src="/assets/images/iconbox/icon6.svg" style={{ color: "transparent" }} />
+                </div>
+                <div class="optech-iconbox-data">
+                  <h5>UI/UX &amp; Br/anding <br /> Identity</h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <a class="optech-icon-btn" href="/service-details">
+                    <i class="icon-show ri-arrow-right-line"></i>
+                    <span>Learn More</span>
+                    <i class="icon-hide ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="3">
+              <div class="optech-iconbox-wrap">
+                <div class="optech-iconbox-icon">
+                  <img alt="icon" width="36" height="36" decoding="async"
+                    src="/assets/images/iconbox/icon7.svg" style={{ color: "transparent" }} />
+                </div>
+                <div class="optech-iconbox-data">
+                  <h5>Web &amp; Mobile App <br /> Development</h5>
+                  <p>Developing a comprehensive IT strategy that aligns.</p>
+                  <a class="optech-icon-btn" href="/service-details">
+                    <i class="icon-show ri-arrow-right-line"></i>
+                    <span>Learn More</span>
+                    <i class="icon-hide ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -400,6 +318,136 @@ const Services = () => {
       </section>
 
       {/* procedure */}
+       {/* services */}
+       <section id="services" class="services section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <p>Check our Services</p>
+        </div>
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Nesciunt Mete</h3>
+                </a>
+                <p>
+                  Provident nihil minus qui consequatur non omnis maiores. Eos
+                  accusantium minus dolores iure perferendis tempore et
+                  consequatur.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Eosle Commodi</h3>
+                </a>
+                <p>
+                  Ut autem aut autem non a. Sint sint sit facilis nam iusto
+                  sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Ledo Markt</h3>
+                </a>
+                <p>
+                  Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
+                  Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Asperiores Commodit</h3>
+                </a>
+                <p>
+                  Non et temporibus minus omnis sed dolor esse consequatur.
+                  Cupiditate sed error ea fuga sit provident adipisci neque.
+                </p>
+                <a class="stretched-link"> </a>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Velit Doloremque</h3>
+                </a>
+                <p>
+                  Cumque et suscipit saepe. Est maiores autem enim facilis ut
+                  aut ipsam corporis aut. Sed animi at autem alias eius labore.
+                </p>
+                <a class="stretched-link"> </a>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <a class="stretched-link">
+                  <h3>Dolori Architecto</h3>
+                </a>
+                <p>
+                  Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
+                  neque non et debitis iure. Corrupti recusandae ducimus enim.
+                </p>
+                <a class="stretched-link"> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* services */}
       {/* call to action  */}
       <section class="lets-talk sec-pad">
         <div class="container">

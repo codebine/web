@@ -2542,3 +2542,44 @@ a:hover {
 .dark-bg {
   background-color: #040d43;
 }
+
+
+/* Home About  */
+.large-padding-tb {
+  padding: 130px 0 220px;
+}
+.overflow-hidden {
+  overflow: hidden !important;
+}
+.extra-mr {
+  margin-right: 150px;
+}
+.optech-thumb {
+  z-index: 0;
+  position: relative;
+}
+.optech-shape1 {
+  position: absolute;
+  top: 70px;
+  right: -82px;
+  z-index: -1;
+}
+.optech-thumb-position {
+  position: absolute;
+  width: 64%;
+  bottom: -100px;
+  right: -120px;
+}
+.optech-shape2 {
+  position: absolute;
+  bottom: -92px;
+  left: 200px;
+  z-index: -1;
+}
+.optech-default-content h2, .optech-default-content h5 {
+  margin-bottom: 20px;
+}
+.optech-extra-mt {
+  margin-top: 40px;
+}
+/* Home About  */
