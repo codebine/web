@@ -4,6 +4,26 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
+      {/* Head  */}
+      <section>
+        <section className="breadcrumbs">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <div className="breadcrumb-wrapper">
+                  <h1>Contact</h1>
+                  <nav>
+                    <a href="/">Home</a>
+                    <i class="bi bi-slash"></i>
+                    <span>Contact</span>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      {/* Head  */}
       <section id="contact" className="contact section my-5" style={{marginTop:"120px !important"}}>
         <div className="container section-title" data-aos="fade-up">
           <h2>Contact</h2>

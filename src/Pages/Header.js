@@ -23,7 +23,7 @@ const Header = () => {
         <nav id="navmenu" className={`navmenu ${isMobileNavActive ? "mobile-nav-active" : ""}`}>
           <ul>
             <li>
-              <NavLink to="/" className="active">Home</NavLink>
+              <NavLink to="/web/" className="active">Home</NavLink>
             </li>
             <li>
               <NavLink to="/About">About</NavLink>
